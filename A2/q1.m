@@ -5,7 +5,7 @@ clc; clear all;
  
 [y, Fs] = audioread('H_MKB.wav'); 
 Ts = 1/Fs; 
-% sound(y, Fs); 
+% sound(y, Fs);
 n = length(y)-1;
 t = 0:Ts/n:Ts;  
 
